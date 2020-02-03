@@ -11,7 +11,7 @@ import org.springframework.test.web.reactive.server.WebTestClient;
  * @see https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-testing-spring-boot-applications
  * @see https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-testing-spring-boot-applications-testing-with-running-server
  */
-@SpringBootTest(webEnvironment = RANDOM_PORT)
+@SpringBootTest(webEnvironment = RANDOM_PORT, properties = "spring.main.web-application-type=reactive")
 @AutoConfigureWebTestClient
 public class HelloWorldControllerAutoConfigureWebTestClientWithEmbeddedServerTest {
 
