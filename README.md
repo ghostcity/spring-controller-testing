@@ -13,7 +13,7 @@ Correspondingly, the straight-forward solution to test by `WebTestClient` is to 
 
 In order to see all the tests succeeding, just check out and run `mvn test`.
 
-- Note #1: Thanks to JUnit5, these single annotations are sufficient enough and no further `RunWith` annotation must be provided.
+- Note #1: Thanks to [JUnit5's Extension Model](https://junit.org/junit5/docs/current/user-guide/#extensions), the `RunWith` annotation is not required anymore.
 - Note #2: Since JUnit5 supports n-ary test methods, the `Autowired` clients might be provided as a test method parameter or (not shown in the code) might be declared as test class fields. (Also annotated with `Autowired`.)
 - Note #3: This simple Maven project specifies a MVC controller but additionally uses WebFlux for testing.
 [Spring explicitly allows both modules to be used simultaneously](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-webflux ) – but one is preferred over the other.
