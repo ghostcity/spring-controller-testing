@@ -1,8 +1,7 @@
 # Various Approaches of Spring Controller Testing
 
 This small repository provides some example Spring Boot Tests verifying the correct implementation of [a very simple `RestController`](./src/main/java/de/informaticum/HelloWorldController.java).
-
-- [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
+(If you are new to this topic, you can start with this ["Building a RESTful Web Service" tutorial](https://spring.io/guides/gs/rest-service/).)
 
 The tests can be done [with a manually wired `MockMvc` client](./src/test/java/de/informaticum/HelloWorldControllerWithManualMockMvcTest.java) or with a [with a manually wired `WebTestClient` client](./src/test/java/de/informaticum/HelloWorldControllerWithManualWebTestClientTest.java).
 
