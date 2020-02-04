@@ -12,6 +12,8 @@ Similar, `WebTestClient` client will by automatically wired and then [can be run
 However, the straight-forward solution to test by `MockMvc` is to [run a `WebMvcTest`](./src/test/java/de/informaticum/HelloWorldControllerWebMvcTest.java).
 Correspondingly, the straight-forward solution to test by `WebTestClient` is to [run a `WebFluxTest`](./src/test/java/de/informaticum/HelloWorldControllerWebFluxTest.java).
 
+In order to see all the tests succeeding, just check out and run `mvn test`.
+
 - Note #1: Thanks to JUnit5, these single annotations are sufficient enough and no further `RunWith` annotation must be provided.
 - Note #2: Since JUnit5 supports n-ary test methods, the `Autowired` clients might be provided as a test method parameter or (not shown in the code) might be declared as test class fields. (Also annotated with `Autowired`.)
 - Note #3: This simple Maven project specifies a MVC controller but additionally uses WebFlux for testing.
