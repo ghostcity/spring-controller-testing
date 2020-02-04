@@ -7,12 +7,6 @@ import org.springframework.boot.test.autoconfigure.web.reactive.AutoConfigureWeb
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.web.reactive.server.WebTestClient;
 
-/**
- * @see https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-testing-spring-boot-applications
- * @see https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-testing-spring-boot-applications-testing-with-mock-environment
- * @see https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-testing-spring-boot-applications-detecting-web-app-type
- * @see https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-webflux
- */
 @SpringBootTest(webEnvironment = MOCK, properties = "spring.main.web-application-type=reactive")
 @AutoConfigureWebTestClient
 public class HelloWorldControllerAutoConfigureWebTestClientWithMockedServerTest {
