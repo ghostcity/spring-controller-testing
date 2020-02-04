@@ -15,7 +15,7 @@ import org.springframework.test.web.reactive.server.WebTestClient;
  */
 @SpringBootTest(webEnvironment = MOCK, properties = "spring.main.web-application-type=reactive")
 @AutoConfigureWebTestClient
-public class HelloWorldControllerAutoConfigureWebTestClientWithMockServerTest {
+public class HelloWorldControllerAutoConfigureWebTestClientWithMockedServerTest {
 
     @Test
     public final void testPing(@Autowired final WebTestClient client)

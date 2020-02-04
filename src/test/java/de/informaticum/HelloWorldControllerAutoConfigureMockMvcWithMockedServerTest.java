@@ -16,7 +16,7 @@ import org.springframework.test.web.servlet.MockMvc;
  */
 @SpringBootTest(webEnvironment = MOCK)
 @AutoConfigureMockMvc
-public class HelloWorldControllerAutoConfigureMockMvcWithMockServerTest {
+public class HelloWorldControllerAutoConfigureMockMvcWithMockedServerTest {
 
     @Test
     public final void testPing(@Autowired final MockMvc mvc)
