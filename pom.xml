@@ -13,7 +13,7 @@
   </parent>
 
   <groupId>de.informaticum</groupId>
-  <artifactId>spring-testing</artifactId>
+  <artifactId>spring-controller-testing</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
   <properties>
