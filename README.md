@@ -1,4 +1,6 @@
-This small repository provides some example Spring Boot Tests verifying the correct implementation of a very simple `RestController`.
+# Various Approaches of Spring Controller Testing
+
+This small repository provides some example Spring Boot Tests verifying the correct implementation of [a very simple `RestController`](./src/main/java/de/informaticum/HelloWorldController.java).
 
 - [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
 
